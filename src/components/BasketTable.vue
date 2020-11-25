@@ -2,10 +2,10 @@
     <table class="table my-3">
         <thead class="thead-dark">
             <tr>
-                <th scope="col"><a href="#" v-on:click.prevent="orderByCategory()">Catégorie <i class="fas fa-chevron-down"></i></a></th>
-                <th scope="col"><a href="#" v-on:click.prevent="orderByProduct()">Produit <i class="fas fa-chevron-down"></i></a></th>
-                <th scope="col"><a href="#" v-on:click.prevent="orderByQuantity()">Quantité <i class="fas fa-chevron-down"></i></a></th>
-                <th scope="col"><a href="#" v-on:click.prevent="orderByPrice()">Prix <i class="fas fa-chevron-down"></i></a></th>
+                <th scope="col"><a href="#" v-on:click.prevent="orderByCategory()">Catégorie <i class="fas fa-chevron-down ml-1"></i></a></th>
+                <th scope="col"><a href="#" v-on:click.prevent="orderByProduct()">Produit <i class="fas fa-chevron-down ml-1"></i></a></th>
+                <th scope="col"><a href="#" v-on:click.prevent="orderByQuantity()">Quantité <i class="fas fa-chevron-down ml-1"></i></a></th>
+                <th scope="col"><a href="#" v-on:click.prevent="orderByPrice()">Prix <i class="fas fa-chevron-down ml-1"></i></a></th>
                 <th class="bg-white border-white"></th>
             </tr>
         </thead>
@@ -17,7 +17,7 @@
                 :item="item">
             </BasketTableItem>
             <tr>
-                <td id="totalPrice" class="font-weight-bold"><i class="fas fa-chevron-right mr-2"></i> Prix total : {{ showCartPrice }} €</td>
+                <td id="totalPrice" class="font-weight-bold"><i class="fas fa-chevron-right mr-1"></i> Prix total : {{ showCartPrice }} €</td>
             </tr>
         </tbody>
     </table>

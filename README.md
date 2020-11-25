@@ -1,4 +1,4 @@
 # Examen de VueJS
 MyDigitalSchool - Examen de VueJS
 
-<kbd><img width="950" height="565" src="ext/preview.png" /></kbd>
+<img width="633" height="377" src="ext/preview.png" />

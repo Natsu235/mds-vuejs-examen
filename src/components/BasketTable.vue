@@ -17,7 +17,7 @@
                 :item="item">
             </BasketTableItem>
             <tr>
-                <td class="font-weight-bold">Prix total : {{ showCartPrice }} €</td>
+                <td id="totalPrice" class="font-weight-bold"><i class="fas fa-chevron-right mr-2"></i> Prix total : {{ showCartPrice }} €</td>
             </tr>
         </tbody>
     </table>

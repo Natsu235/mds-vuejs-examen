@@ -1,5 +1,5 @@
 <template>
-    <tr>
+    <tr :id="index">
         <td>{{ item.category }}</td>
         <td>{{ item.libelle }}</td>
         <td>&times;{{ item.quantity }}</td>

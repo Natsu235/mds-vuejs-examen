@@ -11,7 +11,7 @@
     <br>
     <div class="container">
       <div id="cart" class="p-3 m-3">
-        <h2 class="text-left pb-3"><i class="fas fa-shopping-cart"></i> Mon panier</h2>
+        <h2 class="text-left pb-3"><i class="fas fa-shopping-cart mr-2"></i> Mon panier</h2>
         <h4 class="text-grey">« Je prépare mon panier pour la semaine. »</h4>
         <br>
         <form>
@@ -23,14 +23,14 @@
         </form>
       </div>
       <br>
-      <div class="sec-divider"></div>
+      <div class="sec-divider my-4"></div>
       <br>
       <div id="addItem" class="p-3 m-3">
-        <h2 class="text-left"><i class="fas fa-plus"></i> Ajouter un produit</h2>
+        <h2 class="text-left"><i class="fas fa-plus mr-2"></i> Ajouter un produit</h2>
         <br>
         <form>
-          <AddItemTable></AddItemTable>
-          <div class="d-flex justify-content-end pt-5">
+          <AddItemTable :allProducts="products"></AddItemTable>
+          <div class="d-flex justify-content-end py-5">
             <button type="submit" class="btn btn-primary w-25 mr-2">Ajouter</button>
             <button type="button" class="btn btn-secondary w-25">Réinitialiser</button>
           </div>
